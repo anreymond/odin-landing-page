@@ -78,3 +78,41 @@ ul a,
     padding: 8px 32px;
     font-size: 16px;
 }
+
+.main-content h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    margin-bottom: 100px;
+    gap: 16px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.illustration {
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container p {
+    width: 150px;
+    padding: 0;
+    text-align: center;
+    font-size: 16px;
+    color: #58667a;
+}
+
+.container img {
+    width: 125px;
+}
