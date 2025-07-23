@@ -33,7 +33,7 @@ body {
     text-decoration: none;
 }
 
-/* CSS about header and hero sections*/
+/* CSS about header, footer and hero sections*/
 
 .header a,
 .hero p {
@@ -42,7 +42,8 @@ body {
 }
 
 .header,
-.hero {
+.hero,
+.footer {
     background-color: #1f2937;
 }
 
@@ -208,4 +209,15 @@ body {
     font-weight: 900;
     border-radius: 8px;
     padding: 6px 24px;
+}
+
+/* CSS about footer section*/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+    color: #E5E7EB;
+    font-size: 12px;
 }
