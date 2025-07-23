@@ -116,3 +116,34 @@ ul a,
 .container img {
     width: 125px;
 }
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.quote {
+    width: 650px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: 900;
+    font-size: 24px;
+    margin-top: 8px;
+}
+
+.quote-text,
+.quote-author {
+    color: #1f2937;
+}
