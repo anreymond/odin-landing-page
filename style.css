@@ -13,8 +13,8 @@ body {
 
 .header {
     align-items: center;
-    justify-content: space-between;
-    padding: 8px 200px;
+    justify-content: space-around;
+    padding: 8px 0px;
     display: flex;
 }
 
@@ -182,6 +182,7 @@ body {
 .sign-up-container,
 .sign-up-container button {
     background-color: #3882f6;
+    white-space: nowrap;
 }
 
 .sign-up-container h3 {
